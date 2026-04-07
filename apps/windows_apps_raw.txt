@@ -1,0 +1,540 @@
+﻿# === Registry (Add/Remove Programs) ===
+# Exported: 2026-04-07 14:14:38
+
+
+DisplayName                                                                   DisplayVersion     Publisher             
+-----------                                                                   --------------     ---------             
+ Tools for .Net 3.5                                                           3.11.50727         Microsoft Corporation 
+µTorrent                                                                      3.6.0.47228        BitTorrent Limited    
+7-Zip 26.00 (x64)                                                             26.00              Igor Pavlov           
+AMD Chipset Software                                                          6.10.22.027        Advanced Micro Devi...
+AMD GPIO2 Driver                                                              2.2.0.133          Advanced Micro Devi...
+AMD PCI Driver                                                                1.0.0.90           Advanced Micro Devi...
+AMD PSP Driver                                                                5.30.0.0           Advanced Micro Devi...
+AMD Ryzen Balanced Driver                                                     8.0.0.13           Advanced Micro Devi...
+AMD Ryzen Master SDK                                                          2.14.2.3330        Advanced Micro Devi...
+AMD SBxxx SMBus Driver                                                        5.12.0.44          Advanced Micro Devi...
+AMD_Chipset_Drivers                                                           6.10.22.027        Advanced Micro Devi...
+Android Studio                                                                2024.2             Google LLC            
+Antigravity (User)                                                            1.20.5             Google                
+Audacity 3.7.7                                                                3.7.7              Audacity Team         
+Autoruns                                                                      14.11              Sysinternals          
+Bambu Studio                                                                  02.05.00.66        Bambulab              
+Bonjour                                                                       3.1.0.1            Apple Inc.            
+Brave                                                                         146.1.88.138       Brave Software Inc    
+Claude Code                                                                   2.1.77             Anthropic PBC         
+ClickOnce Bootstrapper Package for Microsoft .NET Framework                   4.8.09256          Microsoft Corporation 
+CPUID CPU-Z MSI 2.18                                                          2.18               CPUID, Inc.           
+Cursor (User)                                                                 2.6.20             Anysphere             
+DiagnosticsHub_CollectionService                                              18.3.36721         Microsoft Corporation 
+DiskGenius V6.0.0                                                                                Yizisoo Software Co...
+Docker Desktop                                                                4.67.0             Docker Inc.           
+EA SPORTS FC 24                                                               1.0.120.18322      Electronic Arts       
+ENE Video Capture Box HAL                                                     1.0.5.15           Ene Tech.             
+ENE_EHD_M2_HAL                                                                1.0.14.0           ENE TECHNOLOGY INC.   
+ENE_External_Device_HAL                                                       1.0.14.0           ENE Tech              
+ENE_MousePad_HAL                                                              1.0.2.0            ENE TECHNOLOGY INC.   
+ENE_X_AIC_HAL                                                                 1.0.6.3            ENE TECHNOLOGY INC.   
+Entity Framework 6.5.0 Tools  for Visual Studio 2022                          6.5.0.0            Microsoft Corporation 
+Everything 1.4.1.1026 (x86)                                                   1.4.1.1026         voidtools             
+FanControl                                                                    262                Remi Mercier Softwa...
+FFmpeg                                                                        8.0.1              Gyan                  
+Git                                                                           2.53.0.2           The Git Development...
+GlassWire 3.8 (remove only)                                                   3.8.1033           GlassWire             
+Google Chrome                                                                 146.0.7680.178     Google LLC            
+icecap_collection_neutral                                                     17.14.36015        Microsoft Corporation 
+icecap_collection_x64                                                         17.14.36015        Microsoft Corporation 
+IIS 10.0 Express                                                              10.0.10007         Microsoft Corporation 
+IIS Express Application Compatibility Database for x64                                                                 
+IIS Express Application Compatibility Database for x86                                                                 
+IntelliTraceProfilerProxy                                                     15.0.21225.01      Microsoft Corporation 
+Java(TM) SE Development Kit 22.0.2 (64-bit)                                   22.0.2.0           Oracle Corporation    
+Logi Options+                                                                 2.1.854977         Logitech              
+Logi Plugin Service                                                           6.2.6.1611         Logitech              
+Logi RightSightForWebcams 1.1.207                                             1.1.207.0          Logitech              
+MetaTrader 5                                                                  5.00               MetaQuotes Ltd.       
+Microsoft .NET 10.0 Templates 10.0.200 x64                                    40.10.56662        Microsoft Corporation 
+Microsoft .NET 8.0 Templates 8.0.419 (x64)                                    32.14.55941        Microsoft Corporation 
+Microsoft .NET 9.0 Templates 9.0.312 (x64)                                    36.11.56644        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 10.0.4 (x64)                                    80.16.48830        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 10.0.4 (x64_arm64)                              80.16.48830        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 10.0.4 (x64_x86)                                80.16.48830        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 8.0.25 (x64)                                    64.100.48707       Microsoft Corporation 
+Microsoft .NET AppHost Pack - 8.0.25 (x64_arm64)                              64.100.48707       Microsoft Corporation 
+Microsoft .NET AppHost Pack - 8.0.25 (x64_x86)                                64.100.48707       Microsoft Corporation 
+Microsoft .NET AppHost Pack - 9.0.14 (x64)                                    72.56.48826        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 9.0.14 (x64_arm64)                              72.56.48826        Microsoft Corporation 
+Microsoft .NET AppHost Pack - 9.0.14 (x64_x86)                                72.56.48826        Microsoft Corporation 
+Microsoft .NET Framework 4.6 Targeting Pack                                   4.6.00081          Microsoft Corporation 
+Microsoft .NET Framework 4.6.1 SDK                                            4.6.01055          Microsoft Corporation 
+Microsoft .NET Framework 4.6.1 Targeting Pack                                 4.6.01055          Microsoft Corporation 
+Microsoft .NET Framework 4.6.2 SDK                                            4.6.01590          Microsoft Corporation 
+Microsoft .NET Framework 4.6.2 Targeting Pack                                 4.6.01590          Microsoft Corporation 
+Microsoft .NET Framework 4.6.2 Targeting Pack (ENU)                           4.6.01590          Microsoft Corporation 
+Microsoft .NET Framework 4.7 SDK                                              4.7.02053          Microsoft Corporation 
+Microsoft .NET Framework 4.7 Targeting Pack                                   4.7.02053          Microsoft Corporation 
+Microsoft .NET Framework 4.7 Targeting Pack (ENU)                             4.7.02053          Microsoft Corporation 
+Microsoft .NET Framework 4.7.1 Doc Redirected Targeting Pack (ENU)            4.7.02558          Microsoft Corporation 
+Microsoft .NET Framework 4.7.1 SDK                                            4.7.02558          Microsoft Corporation 
+Microsoft .NET Framework 4.7.1 Targeting Pack                                 4.7.02558          Microsoft Corporation 
+Microsoft .NET Framework 4.7.2 SDK                                            4.7.03062          Microsoft Corporation 
+Microsoft .NET Framework 4.7.2 Targeting Pack                                 4.7.03062          Microsoft Corporation 
+Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)                           4.7.03062          Microsoft Corporation 
+Microsoft .NET Framework 4.8 SDK                                              4.8.03928          Microsoft Corporation 
+Microsoft .NET Framework 4.8 Targeting Pack                                   4.8.03761          Microsoft Corporation 
+Microsoft .NET Framework 4.8 Targeting Pack (ENU)                             4.8.03761          Microsoft Corporation 
+Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU) 4.8.09037          Microsoft Corporation 
+Microsoft .NET Host - 10.0.4 (x86)                                            80.16.48830        Microsoft Corporation 
+Microsoft .NET Host - 10.0.5 (x64)                                            80.20.50175        Microsoft Corporation 
+Microsoft .NET Host - 8.0.25 (x64)                                            64.100.48707       Microsoft Corporation 
+Microsoft .NET Host - 8.0.25 (x86)                                            64.100.48707       Microsoft Corporation 
+Microsoft .NET Host FX Resolver - 10.0.4 (x64)                                80.16.48830        Microsoft Corporation 
+Microsoft .NET Host FX Resolver - 10.0.4 (x86)                                80.16.48830        Microsoft Corporation 
+Microsoft .NET Host FX Resolver - 10.0.5 (x64)                                80.20.50175        Microsoft Corporation 
+Microsoft .NET Host FX Resolver - 8.0.25 (x64)                                64.100.48707       Microsoft Corporation 
+Microsoft .NET Host FX Resolver - 8.0.25 (x86)                                64.100.48707       Microsoft Corporation 
+Microsoft .NET Runtime - 10.0.4 (x64)                                         80.16.48830        Microsoft Corporation 
+Microsoft .NET Runtime - 10.0.4 (x86)                                         80.16.48830        Microsoft Corporation 
+Microsoft .NET Runtime - 10.0.5 (x64)                                         80.20.50175        Microsoft Corporation 
+Microsoft .NET Runtime - 8.0.25 (x64)                                         64.100.48707       Microsoft Corporation 
+Microsoft .NET Runtime - 8.0.25 (x86)                                         64.100.48707       Microsoft Corporation 
+Microsoft .NET Runtime - 9.0.14 (x64)                                         72.56.48826        Microsoft Corporation 
+Microsoft .NET Runtime - 9.0.14 (x86)                                         72.56.48826        Microsoft Corporation 
+Microsoft .NET SDK 10.0.200 (x64) from Visual Studio                          40.10.56662        Microsoft Corporation 
+Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)                          24.0.28113         Microsoft Corporation 
+Microsoft .NET Targeting Pack - 10.0.4 (x64)                                  80.16.48830        Microsoft Corporation 
+Microsoft .NET Targeting Pack - 10.0.4 (x86)                                  80.16.48830        Microsoft Corporation 
+Microsoft .NET Targeting Pack - 8.0.25 (x64)                                  64.100.48707       Microsoft Corporation 
+Microsoft .NET Targeting Pack - 8.0.25 (x86)                                  64.100.48707       Microsoft Corporation 
+Microsoft .NET Targeting Pack - 9.0.14 (x64)                                  72.56.48826        Microsoft Corporation 
+Microsoft .NET Targeting Pack - 9.0.14 (x86)                                  72.56.48826        Microsoft Corporation 
+Microsoft .NET Toolset 10.0.200 (x64)                                         40.10.56662        Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 - Shared Framework (x64)                        8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 - Shared Framework (x86)                        8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 Shared Framework (x64)                          8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 Shared Framework (x86)                          8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 Targeting Pack (x64)                            8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 8.0.25 Targeting Pack (x86)                            8.0.25.26112       Microsoft Corporation 
+Microsoft ASP.NET Core 9.0.14 Shared Framework (x64)                          9.0.14.26119       Microsoft Corporation 
+Microsoft ASP.NET Core 9.0.14 Shared Framework (x86)                          9.0.14.26119       Microsoft Corporation 
+Microsoft ASP.NET Core 9.0.14 Targeting Pack (x64)                            9.0.14.26119       Microsoft Corporation 
+Microsoft ASP.NET Core 9.0.14 Targeting Pack (x86)                            9.0.14.26119       Microsoft Corporation 
+Microsoft ASP.NET Core Module for IIS Express                                 12.2.18292.0       Microsoft Corporation 
+Microsoft ASP.NET Core Module V2 for IIS Express                              17.0.22116.0       Microsoft Corporation 
+Microsoft ASP.NET Core Runtime - 10.0.4 (x64)                                 80.16.48830        Microsoft Corporation 
+Microsoft ASP.NET Core Runtime - 10.0.4 (x86)                                 80.16.48830        Microsoft Corporation 
+Microsoft ASP.NET Core Targeting Pack - 10.0.4 (x64)                          80.16.48830        Microsoft Corporation 
+Microsoft ASP.NET Core Targeting Pack - 10.0.4 (x86)                          80.16.48830        Microsoft Corporation 
+Microsoft ASP.NET Diagnostic Pack for Visual Studio                           18.4.31.30898      Microsoft Corporation 
+Microsoft Command Line Utilities 15 for SQL Server                            15.0.1300.359      Microsoft Corporation 
+Microsoft Edge                                                                146.0.3856.109     Microsoft Corporation 
+Microsoft Edge WebView2 Runtime                                               146.0.3856.97      Microsoft Corporation 
+Microsoft GameInput                                                           3.3.163.0          Microsoft Corporation 
+Microsoft ODBC Driver 17 for SQL Server                                       17.10.6.1          Microsoft Corporation 
+Microsoft SQL Server 2019 LocalDB                                             15.0.4382.1        Microsoft Corporation 
+Microsoft SQL Server 2025 LocalDB                                             17.0.1000.7        Microsoft Corporation 
+Microsoft System CLR Types for SQL Server 2019                                15.0.2000.5        Microsoft Corporation 
+Microsoft Teams Meeting Add-in for Microsoft Office                           1.24.31301         Microsoft             
+Microsoft TestPlatform SDK Local Feed                                         17.10.0.9037153    Microsoft             
+Microsoft Update Health Tools                                                 5.72.0.0           Microsoft Corporation 
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161                9.0.30729.6161     Microsoft Corporation 
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161                9.0.30729.6161     Microsoft Corporation 
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219                   10.0.40219         Microsoft Corporation 
+Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610                  11.0.60610.1       Microsoft Corporation 
+Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030                  11.0.61030.0       Microsoft Corporation 
+Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610                  11.0.60610.1       Microsoft Corporation 
+Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030                  11.0.61030.0       Microsoft Corporation 
+Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030                 11.0.61030         Microsoft Corporation 
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030                    11.0.61030         Microsoft Corporation 
+Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030                 11.0.61030         Microsoft Corporation 
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030                    11.0.61030         Microsoft Corporation 
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501                  12.0.30501.0       Microsoft Corporation 
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664                  12.0.40664.0       Microsoft Corporation 
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501                  12.0.30501.0       Microsoft Corporation 
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664                  12.0.40664.0       Microsoft Corporation 
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664                 12.0.40664         Microsoft Corporation 
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664                    12.0.40664         Microsoft Corporation 
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664                 12.0.40664         Microsoft Corporation 
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664                    12.0.40664         Microsoft Corporation 
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719                14.50.35719        Microsoft Corporation 
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719                   14.50.35719        Microsoft Corporation 
+Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719                14.50.35719        Microsoft Corporation 
+Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719                   14.50.35719        Microsoft Corporation 
+Microsoft Visual C++ v14 Redistributable (x64) - 14.50.35719                  14.50.35719.0      Microsoft Corporation 
+Microsoft Visual C++ v14 Redistributable (x86) - 14.50.35719                  14.50.35719.0      Microsoft Corporation 
+Microsoft Visual Studio Code (User)                                           1.114.0            Microsoft Corporation 
+Microsoft Visual Studio Installer                                             4.4.38.63497       Microsoft Corporation 
+Microsoft Visual Studio Setup Configuration                                   4.3.2028.6109      Microsoft Corporation 
+Microsoft Visual Studio Setup WMI Provider                                    4.3.2028.6109      Microsoft Corporation 
+Microsoft Web Deploy 4.0                                                      10.0.9419          Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 10.0.4 (x64)                              80.16.48830        Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 10.0.4 (x86)                              80.16.48830        Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 10.0.5 (x64)                              80.20.50175        Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 8.0.25 (x64)                              64.100.48707       Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 8.0.25 (x86)                              8.0.25.35812       Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 9.0.14 (x64)                              72.56.48819        Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 9.0.14 (x86)                              72.56.48819        Microsoft Corporation 
+Microsoft Windows Desktop Runtime 10.0.5 (x64)                                10.0.5.50000       Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 10.0.4 (x64)                       80.16.48830        Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 10.0.4 (x86)                       80.16.48830        Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 8.0.25 (x64)                       64.100.48707       Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 8.0.25 (x86)                       64.100.48707       Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 9.0.14 (x64)                       72.56.48819        Microsoft Corporation 
+Microsoft Windows Desktop Targeting Pack - 9.0.14 (x86)                       72.56.48819        Microsoft Corporation 
+Microsoft.NET.Sdk.Android.Manifest-10.0.100 (x64)                             36.1.30            Microsoft Corporation 
+Microsoft.NET.Sdk.iOS.Manifest-10.0.100 (x64)                                 255.222.10217      Microsoft Corporation 
+Microsoft.NET.Sdk.MacCatalyst.Manifest-10.0.100 (x64)                         255.222.10217      Microsoft Corporation 
+Microsoft.NET.Sdk.macOS.Manifest-10.0.100 (x64)                               255.222.10217      Microsoft Corporation 
+Microsoft.NET.Sdk.Maui.Manifest-10.0.100 (x64)                                10.0.20            Microsoft Corporation 
+Microsoft.NET.Sdk.tvOS.Manifest-10.0.100 (x64)                                255.222.10217      Microsoft Corporation 
+Microsoft.NET.Workload.Emscripten.Current.Manifest-10.0.100 (x64)             81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Emscripten.net6.Manifest-10.0.100 (x64)                81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Emscripten.net7.Manifest-10.0.100 (x64)                81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Emscripten.net8.Manifest-10.0.100 (x64)                81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Emscripten.net9.Manifest-10.0.100 (x64)                81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest-10.0.100 (x64)         81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest-10.0.100 (x64)            81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest-10.0.100 (x64)            81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest-10.0.100 (x64)            81.160.48830       Microsoft Corporation 
+Microsoft.NET.Workload.Mono.Toolchain.net9.Manifest-10.0.100 (x64)            81.160.48830       Microsoft Corporation 
+Mozilla Firefox (x64 en-US)                                                   149.0              Mozilla               
+Mozilla Maintenance Service                                                   149.0              Mozilla               
+MSI Center SDK                                                                3.2026.0123.01     MSI                   
+Node.js                                                                       22.22.0            Node.js Foundation    
+Norton 360                                                                    26.2.10802.2386    Gen Digital Inc.      
+Norton Update Helper                                                          1.8.1989.6         Norton LifeLock       
+Notepad++ (64-bit x64)                                                        8.9.3              Notepad++ Team        
+Notion 7.7.1                                                                  7.7.1              Notion Labs, Inc      
+Npgsql 3.2.6                                                                  3.2.6-3            EnterpriseDB          
+NvCpl                                                                         1.0                NVIDIA Corporation    
+NVIDIA AIUser Container                                                       1.48               NVIDIA Corporation    
+NVIDIA App 11.0.6.383                                                         11.0.6.383         NVIDIA Corporation    
+NVIDIA Backend                                                                11.0.6.383         NVIDIA Corporation    
+NVIDIA Container                                                              1.48               NVIDIA Corporation    
+NVIDIA FrameView SDK 1.5.11821.36727370                                       1.5.11821.36727370 NVIDIA Corporation    
+NVIDIA Graphics Driver 591.74                                                 591.74             NVIDIA Corporation    
+NVIDIA HD Audio Driver 1.4.5.7                                                1.4.5.7            NVIDIA Corporation    
+NVIDIA Install Application                                                    2.1002.438.0       NVIDIA Corporation    
+NVIDIA LocalSystem Container                                                  1.48               NVIDIA Corporation    
+NVIDIA MessageBus 3 for NvApp                                                 3.20               NVIDIA Corporation    
+NVIDIA NvDLISR                                                                1.0                NVIDIA Corporation    
+NVIDIA PhysX System Software 9.23.1019                                        9.23.1019          NVIDIA Corporation    
+NVIDIA Session Container                                                      1.48               NVIDIA Corporation    
+NVIDIA ShadowPlay 11.0.6.0                                                    11.0.6.0           NVIDIA Corporation    
+NVIDIA Telemetry Client                                                       19.5.6.0           NVIDIA Corporation    
+NVIDIA User Container                                                         1.48               NVIDIA Corporation    
+NVIDIA Virtual Audio 4.65.0.12                                                4.65.0.12          NVIDIA Corporation    
+NVIDIA Watchdog Plugin for NvContainer                                        1.48               NVIDIA Corporation    
+Obsidian                                                                      1.12.4             Obsidian              
+Ollama version 0.18.3                                                         0.18.3             Ollama                
+PawnIO                                                                        2.1.0.0            namazso               
+pgJDBC 42.7.2                                                                 42.7.2-1           EnterpriseDB          
+Plus500                                                                       1.0                Google\Chrome         
+Poppler                                                                       25.07.0-0          Owen Schwartz         
+PostgreSQL 18                                                                 18.3-2             PostgreSQL Global D...
+Promontory_GPIO Driver                                                        3.0.3.0            Advanced Micro Devi...
+psqlODBC 13.02.0000                                                           13.02.0000-1       EnterpriseDB          
+Python 3.11.9 (64-bit)                                                        3.11.9150.0        Python Software Fou...
+Python 3.11.9 Add to Path (64-bit)                                            3.11.9150.0        Python Software Fou...
+Python 3.11.9 Core Interpreter (64-bit)                                       3.11.9150.0        Python Software Fou...
+Python 3.11.9 Development Libraries (64-bit)                                  3.11.9150.0        Python Software Fou...
+Python 3.11.9 Documentation (64-bit)                                          3.11.9150.0        Python Software Fou...
+Python 3.11.9 Executables (64-bit)                                            3.11.9150.0        Python Software Fou...
+Python 3.11.9 pip Bootstrap (64-bit)                                          3.11.9150.0        Python Software Fou...
+Python 3.11.9 Standard Library (64-bit)                                       3.11.9150.0        Python Software Fou...
+Python 3.11.9 Tcl/Tk Support (64-bit)                                         3.11.9150.0        Python Software Fou...
+Python 3.11.9 Test Suite (64-bit)                                             3.11.9150.0        Python Software Fou...
+Python 3.11.9 Utility Scripts (64-bit)                                        3.11.9150.0        Python Software Fou...
+Python 3.12.10 (64-bit)                                                       3.12.10150.0       Python Software Fou...
+Python 3.12.10 Add to Path (64-bit)                                           3.12.10150.0       Python Software Fou...
+Python 3.12.10 Core Interpreter (64-bit)                                      3.12.10150.0       Python Software Fou...
+Python 3.12.10 Development Libraries (64-bit)                                 3.12.10150.0       Python Software Fou...
+Python 3.12.10 Documentation (64-bit)                                         3.12.10150.0       Python Software Fou...
+Python 3.12.10 Executables (64-bit)                                           3.12.10150.0       Python Software Fou...
+Python 3.12.10 pip Bootstrap (64-bit)                                         3.12.10150.0       Python Software Fou...
+Python 3.12.10 Standard Library (64-bit)                                      3.12.10150.0       Python Software Fou...
+Python 3.12.10 Tcl/Tk Support (64-bit)                                        3.12.10150.0       Python Software Fou...
+Python 3.12.10 Test Suite (64-bit)                                            3.12.10150.0       Python Software Fou...
+Python 3.13.12 (64-bit)                                                       3.13.12150.0       Python Software Fou...
+Python 3.13.12 Add to Path (64-bit)                                           3.13.12150.0       Python Software Fou...
+Python 3.13.12 Core Interpreter (64-bit)                                      3.13.12150.0       Python Software Fou...
+Python 3.13.12 Development Libraries (64-bit)                                 3.13.12150.0       Python Software Fou...
+Python 3.13.12 Documentation (64-bit)                                         3.13.12150.0       Python Software Fou...
+Python 3.13.12 Executables (64-bit)                                           3.13.12150.0       Python Software Fou...
+Python 3.13.12 pip Bootstrap (64-bit)                                         3.13.12150.0       Python Software Fou...
+Python 3.13.12 Standard Library (64-bit)                                      3.13.12150.0       Python Software Fou...
+Python 3.13.12 Tcl/Tk Support (64-bit)                                        3.13.12150.0       Python Software Fou...
+Python 3.13.12 Test Suite (64-bit)                                            3.13.12150.0       Python Software Fou...
+Python Launcher                                                               3.13.2150.0        Python Software Fou...
+Raspberry Pi Imager                                                           v2.0.6             Raspberry Pi Ltd      
+Realtek Audio Driver                                                          6.0.9694.1         Realtek Semiconduct...
+Realtek Ethernet Controller Driver                                            10.74.1128.2024    Realtek               
+Revo Uninstaller 2.6.5                                                        2.6.5              VS Revo Group, Ltd.   
+RivaTuner Statistics Server 7.3.7                                             7.3.7              Unwinder              
+Syncthing                                                                     2.0.15             The Syncthing Authors 
+Tailscale                                                                     1.96.3             Tailscale Inc.        
+TeraCopy                                                                      3.17               Code Sector           
+Tesseract-OCR - open source OCR engine                                        5.5.0.20241111     Tesseract-OCR commu...
+TreeSize Free V4.8.1                                                          4.8.1              JAM Software          
+vcpp_crt.redist.clickonce                                                     14.44.35211        Microsoft Corporation 
+Verbatim_SureFireGaming_Product                                               1.0.3.11           Verbatim              
+Visual Studio Community 2026                                                  18.4.0             Microsoft Corporation 
+VLC media player                                                              3.0.23             VideoLAN              
+VS Immersive Activate Helper                                                  17.0.157.0         Microsoft Corporation 
+VS JIT Debugger                                                               17.0.157.0         Microsoft Corporation 
+VS Script Debugging Common                                                    17.0.157.0         Microsoft Corporation 
+vs_BlendMsi                                                                   18.4.11505         Microsoft Corporation 
+vs_clickoncebootstrappermsi                                                   18.4.11506         Microsoft Corporation 
+vs_clickoncebootstrappermsires                                                18.4.11506         Microsoft Corporation 
+vs_clickoncesigntoolmsi                                                       18.4.11505         Microsoft Corporation 
+vs_codecoveragemsi                                                            18.4.11505         Microsoft Corporation 
+vs_communitymsires                                                            18.4.11505         Microsoft Corporation 
+vs_communitysharedmsi                                                         18.4.11506         Microsoft Corporation 
+vs_communityx64msi                                                            18.4.11506         Microsoft Corporation 
+vs_CoreEditorFonts                                                            17.7.40001         Microsoft Corporation 
+vs_devenvsharedmsi                                                            18.4.11505         Microsoft Corporation 
+vs_devenx64vmsi                                                               18.4.11505         Microsoft Corporation 
+vs_filehandler_amd64                                                          18.4.11506         Microsoft Corporation 
+vs_filehandler_x86                                                            18.4.11506         Microsoft Corporation 
+vs_FileTracker_Singleton                                                      18.4.11506         Microsoft Corporation 
+vs_githubprotocolhandlermsi                                                   18.4.11505         Microsoft Corporation 
+vs_minshellinteropsharedmsi                                                   18.4.11506         Microsoft Corporation 
+vs_minshellinteropx64msi                                                      18.4.11505         Microsoft Corporation 
+vs_minshellmsires                                                             18.4.11506         Microsoft Corporation 
+vs_minshellsharedmsi                                                          18.4.11506         Microsoft Corporation 
+vs_minshellx64msi                                                             18.4.11505         Microsoft Corporation 
+vs_SQLClickOnceBootstrappermsi                                                18.4.11505         Microsoft Corporation 
+vs_tipsmsi                                                                    18.4.11505         Microsoft Corporation 
+vs_vswebprotocolselectormsi                                                   18.4.11505         Microsoft Corporation 
+WD P40 Game Drive                                                             1.0.2.18           Western Digital Cor...
+WD_BLACK AN1500                                                               1.0.12.0           ENE TECHNOLOGY INC.   
+WD_BLACK D50                                                                  1.0.9.0            ENE TECHNOLOGY INC.   
+Windows Migration Assistant                                                   3.0.1.0            Apple Inc.            
+Windows SDK AddOn                                                             10.1.0.0           Microsoft Corporation 
+Windows Subsystem for Linux                                                   2.6.3.0            Microsoft Corporation 
+ZEUS CAST version 1.4.3.37                                                    1.4.3.37           GAMDIAS Technology ...
+
+
+
+
+# === winget list ===
+
+
+   - 
+                                                                                                                        
+
+   - 
+   \ 
+                                                                                                                        
+Name                                     Id                                        Version            Available Source
+-----------------------------------------------------------------------------------------------------------------------
+7-Zip 26.00 (x64)                        7zip.7zip                                 26.00                        winget
+Android Studio                           ARP\Machine\X64\Android Studio            2024.2                       
+Audacity 3.7.7                           Audacity.Audacity                         3.7.7                        winget
+Bambu Studio                             Bambulab.Bambustudio                      02.05.00.66                  winget
+CPUID CPU-Z MSI 2.18                     CPUID.CPU-Z.MSI                           2.18               2.19      winget
+Docker Desktop                           Docker.DockerDesktop                      4.67.0                       winget
+Git                                      Git.Git                                   2.53.0.2                     winget
+MetaTrader 5                             ARP\Machine\X64\MetaTrader 5              5.00                         
+Mozilla Firefox (x64 en-US)              ARP\Machine\X64\Mozilla Firefox           149.0                        
+Mozilla Maintenance Service              ARP\Machine\X64\MozillaMaintenanceService 149.0                        
+Norton 360                               ARP\Machine\X64\Norton 360                26.2.10802.2386              
+Notepad++ (64-bit x64)                   Notepad++.Notepad++                       8.9.3                        winget
+PawnIO                                   namazso.PawnIO                            2.1.0.0            2.2.0     winget
+PostgreSQL 18                            PostgreSQL.PostgreSQL.18                  18.3-2                       winget
+Tesseract-OCR - open source OCR engine   ARP\Machine\X64\Tesseract-OCR             5.5.0.20241111               
+TreeSize Free V4.8.1                     XP9M26RSCLNT88                            4.8.1                        msstore
+psqlODBC 13.02.0000                      ARP\Machine\X64\psqlODBC 13.02.0000-1     13.02.0000-1                 
+Microsoft .NET SDK 10.0.200 (x64) from ΓÇª ARP\Machine\X64\{020986C0-01AD-486D-951FΓÇª 40.10.56662                  
+Microsoft ODBC Driver 17 for SQL Server  Microsoft.msodbcsql.17                    17.10.6.1                    winget
+IIS 10.0 Express                         ARP\Machine\X64\{0F4F67F8-21E1-422D-B31CΓÇª 10.0.10007                   
+DiskGenius V6.0.0                        Eassos.DiskGenius                         Unknown            6.0.0     winget
+Raspberry Pi Imager                      RaspberryPiFoundation.RaspberryPiImager   v2.0.6             2.0.7     winget
+Microsoft SQL Server 2025 LocalDB        ARP\Machine\X64\{568A72D3-8666-4F65-ABB5ΓÇª 17.0.1000.7                  
+Bonjour                                  Apple.Bonjour                             3.1.0.1                      winget
+Microsoft System CLR Types for SQL ServΓÇª Microsoft.CLRTypesSQLServer.2019          15.0.2000.5                  winget
+Microsoft Visual C++ 2008 RedistributabΓÇª Microsoft.VCRedist.2008.x64               9.0.30729.6161               winget
+Google Chrome                            Google.Chrome                             146.0.7680.178               winget
+Microsoft Visual Studio Installer        ARP\Machine\X64\{6F320B93-EE3C-4826-85E0ΓÇª 4.4.38.63497                 
+Logi Options+                            Logitech.OptionsPlus                      2.1.854977                   winget
+Revo Uninstaller 2.6.5                   RevoUninstaller.RevoUninstaller           2.6.5                        winget
+Microsoft Teams Meeting Add-in for MicrΓÇª ARP\Machine\X64\{A7AB73A3-CB10-4AA5-9D38ΓÇª 1.24.31301                   
+Microsoft GameInput                      Microsoft.GameInput                       3.3.163.0                    winget
+Java(TM) SE Development Kit 22.0.2 (64-ΓÇª Oracle.JDK.22                             22.0.2.0                     winget
+Tailscale                                Tailscale.Tailscale                       1.96.3                       winget
+NVIDIA Graphics Driver 591.74            ARP\Machine\X64\{B2FE1952-0186-46C3-BAECΓÇª 591.74                       
+NVIDIA App 11.0.6.383                    ARP\Machine\X64\{B2FE1952-0186-46C3-BAECΓÇª 11.0.6.383                   
+NVIDIA PhysX System Software 9.23.1019   Nvidia.PhysX                              9.23.1019                    winget
+NVIDIA FrameView SDK 1.5.11821.36727370  ARP\Machine\X64\{B2FE1952-0186-46C3-BAECΓÇª 1.5.11821.36727370           
+NVIDIA HD Audio Driver 1.4.5.7           ARP\Machine\X64\{B2FE1952-0186-46C3-BAECΓÇª 1.4.5.7                      
+Microsoft Update Health Tools            ARP\Machine\X64\{C6FD611E-7EFE-488C-A0E0ΓÇª 5.72.0.0                     
+Node.js                                  OpenJS.NodeJS.22                          22.22.0            22.22.2   winget
+AMD Ryzen Master SDK                     ARP\Machine\X64\{DBD50508-5F75-416B-995DΓÇª 2.14.2.3330                  
+Microsoft Web Deploy 4.0                 Microsoft.WebDeploy                       10.0.9419                    winget
+TeraCopy                                 CodeSector.TeraCopy                       3.17                         winget
+Microsoft SQL Server 2019 LocalDB        ARP\Machine\X64\{E5B3A478-C4C3-49E3-8384ΓÇª 15.0.4382.1                  
+Logi Plugin Service                      ARP\Machine\X64\{FB4DBF89-6BCB-485D-AFA7ΓÇª 6.2.6.1611                   
+Visual Studio Community 2026             Microsoft.VisualStudio.Community          18.4.0             18.4.3    winget
+AMD Chipset Software                     ARP\Machine\X86\AMD_Chipset_IODrivers     6.10.22.027                  
+Brave                                    Brave.Brave                               146.1.88.138                 winget
+Everything 1.4.1.1026 (x86)              ARP\Machine\X86\Everything                1.4.1.1026                   
+GlassWire 3.8 (remove only)              GlassWire.GlassWire                       3.8.1033                     winget
+Npgsql 3.2.6                             ARP\Machine\X86\Npgsql 3.2.6-3            3.2.6-3                      
+RivaTuner Statistics Server 7.3.7        Guru3D.RTSS                               7.3.7                        winget
+VLC media player                         VideoLAN.VLC                              3.0.23                       winget
+ZEUS CAST version 1.4.3.37               ARP\Machine\X86\ZEUS CAST_is1             1.4.3.37                     
+pgJDBC 42.7.2                            ARP\Machine\X86\pgJDBC 42.7.2-1           42.7.2-1                     
+Microsoft Visual C++ 2013 RedistributabΓÇª Microsoft.VCRedist.2013.x64               12.0.40664.0                 winget
+Microsoft Visual C++ 2013 RedistributabΓÇª Microsoft.VCRedist.2013.x64               12.0.30501.0                 winget
+Microsoft Visual C++ v14 RedistributablΓÇª Microsoft.VCRedist.2015+.x86              14.50.35719.0                winget
+FanControl                               Rem0o.FanControl                          262                264       winget
+MSI Center SDK                           ARP\Machine\X86\{15289038-41BE-48F8-B8B9ΓÇª 3.2026.0123.01               
+vs_CoreEditorFonts                       ARP\Machine\X86\{1851460E-0E63-4117-B5BAΓÇª 17.7.40001                   
+Microsoft ASP.NET Core 8.0.25 - Shared ΓÇª Microsoft.DotNet.AspNetCore.8             8.0.25                       winget
+Microsoft ASP.NET Core 8.0.25 - Shared ΓÇª Microsoft.DotNet.AspNetCore.8             8.0.25                       winget
+Microsoft Visual C++ 2012 RedistributabΓÇª Microsoft.VCRedist.2012.x86               11.0.61030.0                 winget
+Microsoft Visual C++ 2012 RedistributabΓÇª Microsoft.VCRedist.2012.x86               11.0.60610.1                 winget
+Microsoft Windows Desktop Runtime - 8.0ΓÇª Microsoft.DotNet.DesktopRuntime.8.x86     8.0.25                       winget
+Microsoft Windows Desktop Runtime - 8.0ΓÇª Microsoft.DotNet.DesktopRuntime.8.x64     8.0.25                       winget
+Python Launcher                          Python.Launcher                           3.13.5                       winget
+Python Launcher                          Python.Launcher                           3.13.2                       winget
+Windows Migration Assistant              Apple.WindowsMigrationAssistant           3.0.1.0                      winget
+Microsoft Windows Desktop Runtime 10.0.ΓÇª Microsoft.DotNet.DesktopRuntime.10        10.0.5                       winget
+Realtek Ethernet Controller Driver       ARP\Machine\X86\{8833FFB6-5B0C-4764-81AAΓÇª 10.74.1128.2024              
+Microsoft Visual C++ v14 RedistributablΓÇª Microsoft.VCRedist.2015+.x64              14.50.35719.0                winget
+Microsoft Visual C++ 2008 RedistributabΓÇª Microsoft.VCRedist.2008.x86               9.0.30729.6161               winget
+Microsoft Visual C++ 2013 RedistributabΓÇª Microsoft.VCRedist.2013.x86               12.0.40664.0                 winget
+Microsoft Visual C++ 2013 RedistributabΓÇª Microsoft.VCRedist.2013.x86               12.0.30501.0                 winget
+Windows SDK AddOn                        ARP\Machine\X86\{AFEDE556-1D76-4165-A1E8ΓÇª 10.1.0.0                     
+Microsoft Edge                           Microsoft.Edge                            146.0.3856.109               winget
+EA SPORTS FC 24                          ARP\Machine\X86\{D599A8A7-E083-496C-B891ΓÇª 1.0.120.18322                
+Microsoft Visual C++ 2010  x86 RedistriΓÇª Microsoft.VCRedist.2010.x86               10.0.40219                   winget
+Realtek Audio Driver                     ARP\Machine\X86\{F132AF7F-7BCA-4EDE-8A7CΓÇª 6.0.9694.1                   
+Microsoft Visual C++ 2012 RedistributabΓÇª Microsoft.VCRedist.2012.x64               11.0.61030.0                 winget
+Microsoft Visual C++ 2012 RedistributabΓÇª Microsoft.VCRedist.2012.x64               11.0.60610.1                 winget
+Notion 7.7.1                             Notion.Notion                             7.7.1              7.9.1     winget
+Plus500                                  ARP\User\X64\71900e679ed992b6c0392499bb7ΓÇª 1.0                          
+Claude Code                              Anthropic.ClaudeCode                      2.1.77             2.1.92    winget
+FFmpeg                                   Gyan.FFmpeg                               8.0.1              8.1       winget
+Autoruns                                 Microsoft.Sysinternals.Autoruns           14.11                        winget
+Syncthing                                Syncthing.Syncthing                       2.0.15                       winget
+Obsidian                                 Obsidian.Obsidian                         1.12.4             1.12.7    winget
+Poppler                                  oschwartz10612.Poppler                    25.07.0-0                    winget
+╬╝Torrent                                 ARP\User\X64\uTorrent                     3.6.0.47228                  
+Python 3.11.9 (64-bit)                   Python.Python.3.11                        3.11.9                       winget
+Ollama version 0.18.3                    Ollama.Ollama                             0.18.3             0.20.2    winget
+Microsoft Visual Studio Code (User)      Microsoft.VisualStudioCode                1.114.0                      winget
+Antigravity (User)                       Google.Antigravity                        1.20.5             1.21.9    winget
+Cursor (User)                            Anysphere.Cursor                          2.6.20             3.0.12    winget
+Python 3.12.10 (64-bit)                  Python.Python.3.12                        3.12.10                      winget
+Python 3.13.12 (64-bit)                  Python.Python.3.13                        3.13.12                      winget
+DocX View & Edit                         MSIX\40242YTDApp.DocXViewEdit_1.3.12.0_nΓÇª 1.3.12.0                     
+XLSX Spreadsheet                         MSIX\50236FileViewerProInc.XLSXSpreadsheΓÇª 1.2.24.0                     
+WhatsApp                                 MSIX\5319275A.WhatsAppDesktop_2.2611.102ΓÇª 2.2611.102.0                 
+MSI Center                               MSIX\9426MICRO-STARINTERNATION.MSICenterΓÇª 2.0.68.0                     
+Nahimic                                  MSIX\A-Volute.Nahimic_1.10.9.0_x64__w2ghΓÇª 1.10.9.0                     
+Blender                                  MSIX\BlenderFoundation.Blender_5.1.0.0_xΓÇª 5.1.0.0                      
+Claude                                   Anthropic.Claude                          1.569.0.0                    winget
+JAMSoftware.TreeSizeFreeContextMenu      MSIX\JAMSoftware.TreeSizeFreeContextMenuΓÇª 2.1.0.0                      
+Microsoft Teams                          Microsoft.Teams                           26032.208.4399.5   26058.71ΓÇª winget
+Forza Horizon 5                          MSIX\Microsoft.624F8B84B80_3.663.817.0_xΓÇª 3.663.817.0                  
+AV1 Video Extension                      MSIX\Microsoft.AV1VideoExtension_2.0.7.0ΓÇª 2.0.7.0                      
+AVC Encoder Video Extension              MSIX\Microsoft.AVCEncoderVideoExtension_ΓÇª 1.1.23.0                     
+Windows Application Compatibility EnhanΓÇª MSIX\Microsoft.ApplicationCompatibilityEΓÇª 1.2511.9.0                   
+Microsoft Bing                           MSIX\Microsoft.BingSearch_1.1.40.0_x64__ΓÇª 1.1.40.0                     
+MSN Weather                              MSIX\Microsoft.BingWeather_4.54.63029.0_ΓÇª 4.54.63029.0                 
+App Installer                            Microsoft.AppInstaller                    1.28.220.0                   winget
+Microsoft Edge Game Assist               MSIX\Microsoft.Edge.GameAssist_1.0.3456.ΓÇª 1.0.3456.0                   
+Xbox                                     MSIX\Microsoft.GamingApp_2603.1001.18.0_ΓÇª 2603.1001.18.0               
+Gaming Services                          MSIX\Microsoft.GamingServices_34.111.200ΓÇª 34.111.20001.0               
+Get Help                                 MSIX\Microsoft.GetHelp_10.2409.33293.0_xΓÇª 10.2409.33293.0              
+HEIF Image Extension                     MSIX\Microsoft.HEIFImageExtension_1.2.30ΓÇª 1.2.30.0                     
+HEVC Video Extensions from Device ManufΓÇª MSIX\Microsoft.HEVCVideoExtension_2.4.43ΓÇª 2.4.43.0                     
+English (United Kingdom) Local ExperienΓÇª MSIX\Microsoft.LanguageExperiencePacken-ΓÇª 26100.124.233.0              
+Forza Hub                                MSIX\Microsoft.Lucille_1.0.4.0_x64__8wekΓÇª 1.0.4.0                      
+MPEG-2 Video Extension                   MSIX\Microsoft.MPEG2VideoExtension_1.2.1ΓÇª 1.2.13.0                     
+Microsoft Edge                           MSIX\Microsoft.MicrosoftEdge.Stable_142.ΓÇª 142.0.3595.80                
+Microsoft Sticky Notes                   MSIX\Microsoft.MicrosoftStickyNotes_6.1.ΓÇª 6.1.4.0                      
+Mixed Reality Portal                     MSIX\Microsoft.MixedReality.Portal_2000.ΓÇª 2000.21051.1282.0            
+Microsoft .Net Native Framework PackageΓÇª MSIX\Microsoft.NET.Native.Framework.2.2_ΓÇª 2.2.29512.0                  
+Microsoft .Net Native Framework PackageΓÇª MSIX\Microsoft.NET.Native.Framework.2.2_ΓÇª 2.2.29512.0                  
+Microsoft .Net Native Runtime Package 2ΓÇª MSIX\Microsoft.NET.Native.Runtime.2.2_2.ΓÇª 2.2.28604.0                  
+Microsoft .Net Native Runtime Package 2ΓÇª MSIX\Microsoft.NET.Native.Runtime.2.2_2.ΓÇª 2.2.28604.0                  
+OneNote Virtual Printer                  MSIX\Microsoft.Office.OneNoteVirtualPrinΓÇª 1.0.0.0                      
+Paint                                    MSIX\Microsoft.Paint_11.2601.401.0_x64__ΓÇª 11.2601.401.0                
+PowerShell Preview                       Microsoft.PowerShell.Preview              7.6.101.0                    winget
+PowerShell                               Microsoft.PowerShell                      7.6.0.0                      winget
+Raw Image Extension                      MSIX\Microsoft.RawImageExtension_2.5.7.0ΓÇª 2.5.7.0                      
+Snipping Tool                            MSIX\Microsoft.ScreenSketch_11.2601.2.0_ΓÇª 11.2601.2.0                  
+Windows Security                         MSIX\Microsoft.SecHealthUI_1000.29510.10ΓÇª 1000.29510.1001.0            
+Microsoft Engagement Framework           MSIX\Microsoft.Services.Store.EngagementΓÇª 10.0.23012.0                 
+Microsoft Engagement Framework           MSIX\Microsoft.Services.Store.EngagementΓÇª 10.0.23012.0                 
+Start Experiences App                    MSIX\Microsoft.StartExperiencesApp_1.241ΓÇª 1.241.0.0                    
+Store Experience Host                    MSIX\Microsoft.StorePurchaseApp_22601.14ΓÇª 22601.1401.7.0               
+Microsoft To Do                          MSIX\Microsoft.Todos_0.175.6901.0_x64__8ΓÇª 0.175.6901.0                 
+Microsoft.UI.Xaml.2.6                    MSIX\Microsoft.UI.Xaml.2.6_2.62112.3002.ΓÇª 2.62112.3002.0               
+Microsoft.UI.Xaml.2.6                    MSIX\Microsoft.UI.Xaml.2.6_2.62112.3002.ΓÇª 2.62112.3002.0               
+Microsoft.UI.Xaml.2.7                    Microsoft.UI.Xaml.2.7                     7.2409.9001.0                winget
+Microsoft.UI.Xaml.2.7                    Microsoft.UI.Xaml.2.7                     7.2409.9001.0                winget
+Microsoft.UI.Xaml.2.8                    Microsoft.UI.Xaml.2.8                     8.2501.31001.0               winget
+Microsoft.UI.Xaml.2.8                    Microsoft.UI.Xaml.2.8                     8.2501.31001.0               winget
+Microsoft Visual C++ 2015 UWP Desktop RΓÇª Microsoft.VCLibs.Desktop.14               14.0.33728.0                 winget
+Microsoft Visual C++ 2015 UWP Desktop RΓÇª Microsoft.VCLibs.Desktop.14               14.0.33728.0                 winget
+Microsoft Visual C++ 2015 UWP Runtime PΓÇª MSIX\Microsoft.VCLibs.140.00_14.0.33519.ΓÇª 14.0.33519.0                 
+Microsoft Visual C++ 2015 UWP Runtime PΓÇª MSIX\Microsoft.VCLibs.140.00_14.0.33519.ΓÇª 14.0.33519.0                 
+VP9 Video Extensions                     MSIX\Microsoft.VP9VideoExtensions_1.2.12ΓÇª 1.2.12.0                     
+Web Media Extensions                     MSIX\Microsoft.WebMediaExtensions_2.1.26ΓÇª 2.1.26.0                     
+WebP Image Extension                     MSIX\Microsoft.WebpImageExtension_1.2.14ΓÇª 1.2.14.0                     
+Widgets Platform Runtime                 MSIX\Microsoft.WidgetsPlatformRuntime_1.ΓÇª 1.6.14.0                     
+WinDbg                                   Microsoft.WinDbg                          1.2603.20001.0               winget
+Windows Advanced Settings                MSIX\Microsoft.Windows.DevHome_0.2100.85ΓÇª 0.2100.858.0                 
+Microsoft Photos                         MSIX\Microsoft.Windows.Photos_2026.11020ΓÇª 2026.11020.20001.0           
+Windows Clock                            MSIX\Microsoft.WindowsAlarms_1.1.85.0_x6ΓÇª 1.1.85.0                     
+WindowsAppRuntime.1.4                    MSIX\Microsoft.WindowsAppRuntime.1.4_400ΓÇª 4000.1309.2056.0             
+WindowsAppRuntime.1.4                    MSIX\Microsoft.WindowsAppRuntime.1.4_400ΓÇª 4000.1309.2056.0             
+WindowsAppRuntime.1.5                    MSIX\Microsoft.WindowsAppRuntime.1.5_500ΓÇª 5001.373.1736.0              
+WindowsAppRuntime.1.5                    MSIX\Microsoft.WindowsAppRuntime.1.5_500ΓÇª 5001.373.1736.0              
+WindowsAppRuntime.1.6                    MSIX\Microsoft.WindowsAppRuntime.1.6_600ΓÇª 6000.519.329.0               
+WindowsAppRuntime.1.6                    MSIX\Microsoft.WindowsAppRuntime.1.6_600ΓÇª 6000.519.329.0               
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.676.1651.0              
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.744.1258.0              
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.770.750.0               
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.770.750.0               
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.785.2325.0              
+WindowsAppRuntime.1.7                    MSIX\Microsoft.WindowsAppRuntime.1.7_700ΓÇª 7000.785.2325.0              
+WindowsAppRuntime.1.8                    MSIX\Microsoft.WindowsAppRuntime.1.8_800ΓÇª 8000.731.1532.0              
+WindowsAppRuntime.1.8                    MSIX\Microsoft.WindowsAppRuntime.1.8_800ΓÇª 8000.770.947.0               
+WindowsAppRuntime.1.8                    MSIX\Microsoft.WindowsAppRuntime.1.8_800ΓÇª 8000.806.2252.0              
+WindowsAppRuntime.1.8                    MSIX\Microsoft.WindowsAppRuntime.1.8_800ΓÇª 8000.806.2252.0              
+Windows Calculator                       MSIX\Microsoft.WindowsCalculator_11.2508ΓÇª 11.2508.4.0                  
+Windows Camera                           MSIX\Microsoft.WindowsCamera_2025.2510.2ΓÇª 2025.2510.2.0                
+Windows Maps                             MSIX\Microsoft.WindowsMaps_1.0.65.0_x64_ΓÇª 1.0.65.0                     
+Windows Notepad                          MSIX\Microsoft.WindowsNotepad_11.2512.26ΓÇª 11.2512.26.0                 
+Windows Sound Recorder                   MSIX\Microsoft.WindowsSoundRecorder_1.1.ΓÇª 1.1.86.0                     
+Microsoft Store                          MSIX\Microsoft.WindowsStore_22602.1401.4ΓÇª 22602.1401.4.0               
+Windows Terminal                         Microsoft.WindowsTerminal                 1.24.10621.0       1.24.109ΓÇª winget
+Windows Package Manager Source (winget)ΓÇª MSIX\Microsoft.Winget.Source_2026.407.55ΓÇª 2026.407.555.37              
+Xbox TCUI                                MSIX\Microsoft.Xbox.TCUI_1.24.10001.0_x6ΓÇª 1.24.10001.0                 
+Xbox Accessories                         MSIX\Microsoft.XboxDevices_2506.2505.280ΓÇª 2506.2505.28001.0            
+Xbox Game Bar Plugin                     MSIX\Microsoft.XboxGameOverlay_1.54.4001ΓÇª 1.54.4001.0                  
+Game Bar                                 MSIX\Microsoft.XboxGamingOverlay_7.326.2ΓÇª 7.326.2102.0                 
+Xbox Identity Provider                   MSIX\Microsoft.XboxIdentityProvider_12.1ΓÇª 12.130.16001.0               
+Game Speech Window                       MSIX\Microsoft.XboxSpeechToTextOverlay_1ΓÇª 1.97.17002.0                 
+Phone Link                               MSIX\Microsoft.YourPhone_1.26012.101.0_xΓÇª 1.26012.101.0                
+Windows Media Player                     MSIX\Microsoft.ZuneMusic_11.2601.11.0_x6ΓÇª 11.2601.11.0                 
+Films & TV                               MSIX\Microsoft.ZuneVideo_10.25121.10051.ΓÇª 10.25121.10051.0             
+Quick Assist                             MSIX\MicrosoftCorporationII.QuickAssist_ΓÇª 2.0.47.0                     
+WinAppRuntime.Main.1.8                   MSIX\MicrosoftCorporationII.WinAppRuntimΓÇª 8000.770.947.0               
+Windows Subsystem for Linux              Microsoft.WSL                             2.6.3.0                      winget
+Windows Web Experience Pack              MSIX\MicrosoftWindows.Client.WebExperienΓÇª 526.1202.40.0                
+Cross Device Experience Host             MSIX\MicrosoftWindows.CrossDevice_1.2601ΓÇª 1.26012.79.0                 
+Mozilla Firefox                          MSIX\Mozilla.Firefox_149.0.0.0_x64__n80bΓÇª 149.0.0.0                    
+NVIDIA Control Panel                     MSIX\NVIDIACorp.NVIDIAControlPanel_8.1.9ΓÇª 8.1.969.0                    
+Notepad++                                MSIX\NotepadPlusPlus_1.0.0.0_neutral__22ΓÇª 1.0.0.0                      
+Python 3.12                              MSIX\PythonSoftwareFoundation.Python.3.1ΓÇª 3.12.2800.0                  
+Realtek Audio Control                    MSIX\RealtekSemiconductorCorp.RealtekAudΓÇª 2.53.384.0                   
+Mileena                                  MSIX\WarnerBros.Interactive.Mileena_4.0.ΓÇª 4.0.0.0                      
+Rain                                     MSIX\WarnerBros.Interactive.Rain_4.0.0.0ΓÇª 4.0.0.0                      
+Rambo                                    MSIX\WarnerBros.Interactive.Rambo_4.0.0.ΓÇª 4.0.0.0                      
+Mortal KombatTM 11                       MSIX\WarnerBros.Interactive.a86c0be2-cf8ΓÇª 4.0.47.0                     
+Mail and Calendar                        MSIX\microsoft.windowscommunicationsappsΓÇª 16005.14326.22342ΓÇª           

@@ -1,0 +1,96 @@
+# =============================================================================
+# Homebrew Install Commands — Windows-to-macOS Migration
+# =============================================================================
+# Generated from scan of Windows machine on 2026-04-07.
+# Run manually:  bash -c 'while IFS= read -r line; do [[ "$line" =~ ^#|^$ ]] && continue; eval "$line"; done < apps/brew_apps.txt'
+# Or use:        bash scripts/full_setup.sh  (recommended)
+# =============================================================================
+
+# === Version Control ===
+brew install git
+
+# === Containers & Virtualisation ===
+brew install --cask docker
+
+# === Editors & IDEs ===
+brew install --cask visual-studio-code
+brew install --cask cursor
+brew install --cask android-studio
+
+# === Languages & Runtimes ===
+brew install node@22
+brew install python@3.11
+brew install python@3.12
+brew install python@3.13
+brew install --cask temurin
+brew install --cask dotnet-sdk
+
+# === Databases ===
+brew install postgresql@17
+
+# === CLI Utilities ===
+brew install ffmpeg
+brew install tesseract
+brew install poppler
+brew install 7zip
+brew install syncthing
+
+# === AI & ML ===
+brew install --cask ollama
+brew install --cask claude
+# Claude Code is installed via npm (handled by full_setup.sh):
+#   npm install -g @anthropic-ai/claude-code
+
+# === Browsers ===
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask brave-browser
+
+# === Productivity ===
+brew install --cask notion
+brew install --cask obsidian
+brew install --cask whatsapp
+brew install --cask microsoft-teams
+
+# === Media ===
+brew install --cask vlc
+brew install --cask audacity
+brew install --cask blender
+
+# === Networking & Sync ===
+brew install --cask tailscale
+
+# === Hardware & IoT ===
+brew install --cask raspberry-pi-imager
+brew install --cask bambu-studio
+
+# === Peripherals ===
+brew install --cask logi-options-plus
+
+# === Shell ===
+brew install --cask powershell
+
+# =============================================================================
+# NO MAC EQUIVALENT — Windows-only apps and suggested alternatives
+# =============================================================================
+# NO MAC EQUIVALENT: Visual Studio Community 2026 — use VS Code + C# Dev Kit or JetBrains Rider
+# NO MAC EQUIVALENT: Everything (file search) — use Spotlight, Alfred, or Raycast
+# NO MAC EQUIVALENT: Revo Uninstaller — use AppCleaner (free)
+# NO MAC EQUIVALENT: TeraCopy — not needed (native Finder copy is fine)
+# NO MAC EQUIVALENT: TreeSize Free — use GrandPerspective (brew install --cask grandperspective)
+# NO MAC EQUIVALENT: FanControl — use Macs Fan Control (brew install --cask macs-fan-control)
+# NO MAC EQUIVALENT: DiskGenius — use Disk Utility (built-in)
+# NO MAC EQUIVALENT: GlassWire — use Little Snitch (brew install --cask little-snitch)
+# NO MAC EQUIVALENT: Norton 360 — macOS has built-in security (Gatekeeper/XProtect)
+# NO MAC EQUIVALENT: WinDbg — use lldb (built-in with Xcode CLI tools)
+# NO MAC EQUIVALENT: RivaTuner Statistics Server — use iStat Menus (brew install --cask istat-menus)
+# NO MAC EQUIVALENT: NVIDIA/AMD drivers — not applicable (Apple Silicon has unified GPU)
+# NO MAC EQUIVALENT: MSI Center — not applicable (PC motherboard utility)
+# NO MAC EQUIVALENT: WSL — not needed (macOS is native Unix)
+# NO MAC EQUIVALENT: EA Sports FC 24 — not available on macOS
+# NO MAC EQUIVALENT: Forza Horizon 5 — not available on macOS
+# NO MAC EQUIVALENT: MetaTrader 5 — use web version or Wine
+# NO MAC EQUIVALENT: uTorrent — use Transmission (brew install --cask transmission)
+# NO MAC EQUIVALENT: Plus500 — use web version
+# NO MAC EQUIVALENT: CPU-Z — use Activity Monitor (built-in) or iStat Menus
+# NO MAC EQUIVALENT: Autoruns (Sysinternals) — not needed on macOS

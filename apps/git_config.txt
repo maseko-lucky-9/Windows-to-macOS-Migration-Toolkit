@@ -1,0 +1,8 @@
+﻿user.name=Thulani
+user.email=ltmaseko7@gmail.com
+core.editor="C:\Users\ltmas\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+core.compression=0
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true

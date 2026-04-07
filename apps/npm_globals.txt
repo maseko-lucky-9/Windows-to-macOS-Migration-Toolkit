@@ -1,0 +1,9 @@
+﻿C:\Users\ltmas\AppData\Roaming\npm
++-- @anthropic-ai/claude-code@2.1.92
++-- @playwright/cli@0.1.1
++-- dmux@5.6.3
++-- docx@9.6.1
++-- n8n@1.89.2
++-- npm@11.11.1
+`-- pnpm@9.15.4
+

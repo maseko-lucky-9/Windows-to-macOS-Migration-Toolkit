@@ -1,0 +1,15 @@
+{
+  "preferences": {
+    "localAgentModeTrustedFolders": [
+      "C:\\Users\\ltmas\\Repo",
+      "C:\\Users\\ltmas\\Documents"
+    ],
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "code",
+    "bypassPermissionsModeEnabled": true,
+    "dockBounceEnabled": true,
+    "coworkWebSearchEnabled": true,
+    "keepAwakeEnabled": true
+  }
+}

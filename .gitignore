@@ -21,3 +21,6 @@ Desktop.ini
 # OS junk
 .Spotlight-V100
 .Trashes
+
+# Claude personal memory (contains operational notes — not for public repos)
+claude/projects/

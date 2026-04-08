@@ -10,12 +10,23 @@ run a single script on your Mac to install everything.
 mac-migration/
 ├── scripts/
 │   ├── scan_windows.ps1      # Run on Windows — exports apps, extensions, config
-│   └── full_setup.sh         # Run on macOS  — installs everything
+│   ├── scan_claude.ps1       # Run on Windows — exports Claude Code & Desktop config
+│   ├── full_setup.sh         # Run on macOS  — installs everything (10 stages)
+│   └── migrate_claude.sh     # Run on macOS  — deploys Claude config with path surgery
 ├── apps/
 │   ├── brew_apps.txt         # Curated Homebrew install commands
 │   ├── windows_apps_raw.txt  # (generated) Raw Windows app inventory
 │   ├── npm_globals.txt       # (generated) Global npm packages
 │   └── git_config.txt        # (generated) Git global config
+├── claude/                   # (generated) Claude Code & Desktop config export
+│   ├── settings.json         # Permissions, hooks, plugins
+│   ├── CLAUDE.md             # Global system instructions
+│   ├── SKILLS.md             # Curated skills index
+│   ├── .claudeignore         # File ignore patterns
+│   ├── claude_desktop_config.json  # Desktop app preferences
+│   ├── agents/               # Custom agent definitions (~40 files)
+│   ├── reference/            # Reference docs (tech stack, anti-patterns, etc.)
+│   └── projects/             # Per-project memories
 └── vscode/
     ├── vscode_extensions.txt # VS Code extension IDs
     └── install_extensions.sh # Extension installer script
@@ -44,11 +55,14 @@ On your **Windows** machine, open PowerShell and run:
 # Navigate to the repo
 cd path\to\mac-migration
 
-# Run the export script
+# Export apps, extensions, and config
 powershell -ExecutionPolicy Bypass -File scripts\scan_windows.ps1
+
+# Export Claude Code & Desktop configuration
+powershell -ExecutionPolicy Bypass -File scripts\scan_claude.ps1
 ```
 
-This generates four files:
+The first script generates four files:
 
 | File | Contents |
 |---|---|
@@ -56,6 +70,19 @@ This generates four files:
 | `apps/npm_globals.txt` | Global npm packages |
 | `apps/git_config.txt` | Git global config (name, email, aliases) |
 | `vscode/vscode_extensions.txt` | All installed VS Code extension IDs |
+
+The second script exports Claude configuration into `claude/`:
+
+| Directory/File | Contents |
+|---|---|
+| `claude/settings.json` | Permissions, hooks, enabled plugins |
+| `claude/CLAUDE.md` | Global system instructions |
+| `claude/SKILLS.md` | Curated skills index |
+| `claude/.claudeignore` | File ignore patterns |
+| `claude/claude_desktop_config.json` | Desktop app preferences |
+| `claude/agents/` | Custom agent definitions |
+| `claude/reference/` | Reference docs (tech stack, anti-patterns) |
+| `claude/projects/` | Per-project memories |
 
 > **Note:** The repo ships with a pre-populated `vscode_extensions.txt` and
 > `brew_apps.txt`. Re-running the scan updates the extensions list but you'll
@@ -164,6 +191,54 @@ snippets, and UI state across machines:
 
 ---
 
+## Step 6: Claude Code & Desktop Configuration
+
+`full_setup.sh` Stage 10 handles this automatically. To run standalone:
+
+```bash
+bash scripts/migrate_claude.sh
+```
+
+### What gets migrated
+
+- **settings.json** — permissions, hooks, enabled plugins (paths auto-transformed)
+- **CLAUDE.md** — global system instructions
+- **SKILLS.md** — curated skills index
+- **.claudeignore** — file ignore patterns
+- **~40 custom agents** — all `.agent.md` definitions (archived agents excluded)
+- **Reference docs** — tech stack, anti-patterns, agent handoff protocol
+- **Project memories** — per-project context and feedback (directory names remapped)
+- **Claude Desktop config** — trusted folders, preferences (paths auto-transformed)
+
+### Path transformation
+
+The migration script automatically converts Windows paths to macOS equivalents:
+
+| Windows Format | macOS Result |
+|---|---|
+| `C:/Users/you/Repo` | `/Users/you/Repo` |
+| `C:\\Users\\you\\Repo` | `/Users/you/Repo` |
+| `//c/Users/you/Repo` | `/Users/you/Repo` |
+
+### What does NOT migrate
+
+| Item | Why | Action needed |
+|---|---|---|
+| Plugins & skills | Re-downloaded from marketplace on first use | None |
+| OAuth tokens | Platform-specific, can't transfer | Sign in again |
+| Sessions & cache | Ephemeral | None |
+| Audit log & history | Machine-specific | None |
+
+### Post-deploy
+
+After migration, you must manually:
+1. **Authenticate Claude Code** — run `claude` in terminal and sign in
+2. **Sign into Claude Desktop** — open the app and log in
+3. **Review hooks** — check `~/.claude/settings.json` for any paths that
+   reference locations specific to your Windows layout (e.g., homelab-infra)
+
+---
+
 ## Troubleshooting
 
 ### `brew doctor` — general health check
@@ -233,6 +308,19 @@ brew info --cask some-app
 
 Look for the `depends_on` section to see version requirements.
 
+### Claude Code hooks not working
+
+If hooks fail after migration, the most likely cause is un-transformed paths.
+Check `~/.claude/settings.json` for any remaining Windows paths:
+
+```bash
+grep -n 'C:/' ~/.claude/settings.json
+grep -n '\\\\' ~/.claude/settings.json
+```
+
+Fix any remaining paths manually — the migration script handles the common
+patterns but custom paths may slip through.
+
 ---
 
 ## Notes on Windows-Only Apps
@@ -293,6 +381,13 @@ After running the setup, complete these manual steps:
   your images fresh on the Mac.
 
 - [ ] **Transfer Obsidian vault** data via Syncthing, iCloud, or manual copy
+
+- [ ] **Authenticate Claude Code** — run `claude` in terminal and sign in
+
+- [ ] **Sign into Claude Desktop** — open the app and log in
+
+- [ ] **Review Claude hooks** — check `~/.claude/settings.json` for any paths
+  specific to your Windows layout (homelab-infra, Obsidian Vault location, etc.)
 
 - [ ] **Set macOS developer defaults** (optional quality-of-life tweaks):
   ```bash

@@ -18,6 +18,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 REPO_ROOT="$SCRIPT_DIR/.."
 BREW_APPS="$REPO_ROOT/apps/brew_apps.txt"
 EXTENSIONS_SCRIPT="$REPO_ROOT/vscode/install_extensions.sh"
+CLAUDE_MIGRATE="$SCRIPT_DIR/migrate_claude.sh"
 
 # ---------------------------------------------------------------------------
 # Tracking arrays for summary
@@ -46,7 +47,7 @@ print_step() {
 # ---------------------------------------------------------------------------
 # Stage 1: macOS check
 # ---------------------------------------------------------------------------
-print_step "1/9" "Verifying macOS"
+print_step "1/10" "Verifying macOS"
 
 if [[ "$(uname)" != "Darwin" ]]; then
     echo "ERROR: This script must be run on macOS, not $(uname)."
@@ -60,7 +61,7 @@ stage_results+=("macOS check: PASS")
 # ---------------------------------------------------------------------------
 # Stage 2: Xcode Command Line Tools
 # ---------------------------------------------------------------------------
-print_step "2/9" "Checking Xcode Command Line Tools"
+print_step "2/10" "Checking Xcode Command Line Tools"
 
 if xcode-select -p &> /dev/null; then
     echo "OK — already installed at $(xcode-select -p)"
@@ -81,7 +82,7 @@ stage_results+=("Xcode CLI tools: PASS")
 # ---------------------------------------------------------------------------
 # Stage 3: Rosetta 2 (Apple Silicon only)
 # ---------------------------------------------------------------------------
-print_step "3/9" "Checking Rosetta 2"
+print_step "3/10" "Checking Rosetta 2"
 
 if [[ "$(uname -m)" == "arm64" ]]; then
     if /usr/bin/pgrep -q oahd; then
@@ -99,7 +100,7 @@ stage_results+=("Rosetta 2: PASS")
 # ---------------------------------------------------------------------------
 # Stage 4: Homebrew
 # ---------------------------------------------------------------------------
-print_step "4/9" "Checking Homebrew"
+print_step "4/10" "Checking Homebrew"
 
 if command -v brew &> /dev/null; then
     echo "OK — Homebrew already installed at $(which brew)"
@@ -127,7 +128,7 @@ stage_results+=("Homebrew: PASS")
 # ---------------------------------------------------------------------------
 # Stage 5: brew update
 # ---------------------------------------------------------------------------
-print_step "5/9" "Updating Homebrew"
+print_step "5/10" "Updating Homebrew"
 
 brew update
 echo "OK — Homebrew updated."
@@ -136,7 +137,7 @@ stage_results+=("brew update: PASS")
 # ---------------------------------------------------------------------------
 # Stage 6: Install applications from brew_apps.txt
 # ---------------------------------------------------------------------------
-print_step "6/9" "Installing applications from brew_apps.txt"
+print_step "6/10" "Installing applications from brew_apps.txt"
 
 if [[ ! -f "$BREW_APPS" ]]; then
     echo "WARNING: $BREW_APPS not found. Skipping brew installs."
@@ -177,7 +178,7 @@ fi
 # ---------------------------------------------------------------------------
 # Stage 7: Add keg-only formulas to PATH for this session
 # ---------------------------------------------------------------------------
-print_step "7/9" "Linking keg-only formulas to PATH"
+print_step "7/10" "Linking keg-only formulas to PATH"
 
 if [[ ${#keg_only_formulas[@]} -gt 0 ]]; then
     for formula in "${keg_only_formulas[@]}"; do
@@ -196,7 +197,7 @@ stage_results+=("keg-only PATH: PASS")
 # ---------------------------------------------------------------------------
 # Stage 8: Install Claude Code via npm
 # ---------------------------------------------------------------------------
-print_step "8/9" "Installing Claude Code (npm)"
+print_step "8/10" "Installing Claude Code (npm)"
 
 if command -v npm &> /dev/null; then
     echo -n "  npm install -g @anthropic-ai/claude-code ... "
@@ -216,7 +217,7 @@ fi
 # ---------------------------------------------------------------------------
 # Stage 9: Install VS Code extensions
 # ---------------------------------------------------------------------------
-print_step "9/9" "Installing VS Code extensions"
+print_step "9/10" "Installing VS Code extensions"
 
 if [[ -f "$EXTENSIONS_SCRIPT" ]]; then
     bash "$EXTENSIONS_SCRIPT"
@@ -224,6 +225,24 @@ if [[ -f "$EXTENSIONS_SCRIPT" ]]; then
 else
     echo "WARNING: $EXTENSIONS_SCRIPT not found. Skipping."
     stage_results+=("VS Code extensions: SKIPPED (script not found)")
+fi
+
+# ---------------------------------------------------------------------------
+# Stage 10: Migrate Claude Code & Desktop configuration
+# ---------------------------------------------------------------------------
+print_step "10/10" "Migrating Claude Code & Desktop configuration"
+
+if [[ -d "$REPO_ROOT/claude" ]]; then
+    if [[ -f "$CLAUDE_MIGRATE" ]]; then
+        CLAUDE_MIGRATE_QUIET=1 bash "$CLAUDE_MIGRATE"
+        stage_results+=("Claude config: DONE (see above)")
+    else
+        echo "WARNING: $CLAUDE_MIGRATE not found. Skipping."
+        stage_results+=("Claude config: SKIPPED (migrate script not found)")
+    fi
+else
+    echo "SKIP — no claude/ directory in repo. Run scan_claude.ps1 on Windows first."
+    stage_results+=("Claude config: SKIPPED (no claude/ export)")
 fi
 
 # =============================================================================
@@ -284,4 +303,10 @@ echo ""
 echo "  [ ] Docker Desktop: pull/build images fresh (they don't transfer)"
 echo ""
 echo "  [ ] Transfer Obsidian vault data (Syncthing, iCloud, or manual copy)"
+echo ""
+echo "  [ ] Authenticate Claude Code: run 'claude' and follow the sign-in flow"
+echo ""
+echo "  [ ] Sign into Claude Desktop (open the app and log in)"
+echo ""
+echo "  [ ] Review hooks in ~/.claude/settings.json for platform-specific paths"
 echo ""

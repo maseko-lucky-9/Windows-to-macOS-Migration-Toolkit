@@ -1,0 +1,190 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(scp \"c:/Users/ltmas/Repo/Home NAS/scripts/00-preflight.sh\" homelab:/tmp/nas-setup/scripts/00-preflight.sh)",
+      "Read(//c/Users/ltmas/Repo/Home NAS/**)",
+      "Read(C:/Users/ltmas/Documents/Obsidian Vault/**)",
+      "Edit(C:/Users/ltmas/Documents/Obsidian Vault/**)",
+      "Write(C:/Users/ltmas/Documents/Obsidian Vault/**)",
+      "Bash(microk8s kubectl*)",
+      "Bash(kubectl*)",
+      "Bash(docker build*)",
+      "Bash(docker push localhost*)",
+      "Bash(ssh homelab-tailscale *)",
+      "Bash(sleep *)",
+      "Bash(cd *)",
+      "Bash(docker exec*)",
+      "Bash(curl http://localhost*)",
+      "Bash(docker compose*)",
+      "Bash(docker run*)",
+      "Bash(mkdir -p \"C:/Users/ltmas/Documents/Obsidian Vault/**\")",
+      "Read(C:/Users/ltmas/Repo/**)",
+      "Edit(C:/Users/ltmas/Repo/**)",
+      "Write(C:/Users/ltmas/Repo/**)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git branch*)",
+      "Bash(gh pr view*)",
+      "Bash(gh pr list*)",
+      "Bash(gh pr create*)",
+      "Bash(gh issue view*)",
+      "Bash(gh issue list*)",
+      "Edit(C:/Users/ltmas/.claude/**)",
+      "Write(C:/Users/ltmas/.claude/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(git stash *)",
+      "Bash(git tag *)",
+      "Bash(git merge *)",
+      "Bash(git rebase *)",
+      "Bash(git cherry-pick *)",
+      "Bash(npm test*)",
+      "Bash(npm run test*)",
+      "Bash(npm run lint*)",
+      "Bash(npm run build*)",
+      "Bash(npx vitest*)",
+      "Bash(npx jest*)",
+      "Bash(python -m pytest*)",
+      "Bash(python -m ruff*)",
+      "Bash(python -m flake8*)",
+      "Bash(python -m mypy*)",
+      "Bash(dotnet test*)",
+      "Bash(dotnet build*)",
+      "Bash(dotnet format*)",
+      "Bash(go test*)",
+      "Bash(go build*)",
+      "Bash(go vet*)",
+      "Bash(gh pr checks*)",
+      "Bash(gh pr review*)",
+      "Bash(gh pr merge*)",
+      "Bash(gh run view*)",
+      "Bash(gh run watch*)",
+      "Bash(gh api *)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(find *)",
+      "Bash(mkdir -p *)",
+      "Bash(kubectl wait*)",
+      "Bash(kubectl rollout *)",
+      "Bash(helm template*)",
+      "Bash(helm lint*)",
+      "Bash(kustomize build*)",
+      "Bash(cp *)",
+      "Bash(git remote*)",
+      "Bash(git fetch*)",
+      "Bash(gh repo*)",
+      "Bash(corepack*)",
+      "Bash(pnpm*)",
+      "Bash(notebooklm *)",
+      "Bash(notebooklm)",
+      "Read(//c/Users/ltmas/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python scripts/search.py \"premium car wash service luxury glossy warm\" --design-system -p \"Cream Wash\")",
+      "Bash(python scripts/search.py \"glossy glassmorphism luxury premium\" --domain style)",
+      "Bash(python scripts/search.py \"luxury premium warm gold amber\" --domain color)",
+      "Bash(npx next:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"input=$(cat); echo \\\"$input\\\" | grep -qiE '(rm\\s+-rf|reset\\s+--hard|terraform\\s+apply|drop\\s+table|drop\\s+database|force\\s+push|push\\s+--force|truncate\\s+table)' && echo 'BLOCKED: Destructive operation detected. Please confirm this action with the user before proceeding.' >&2 && exit 2 || exit 0\""
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"input=$(cat); echo \\\"$input\\\" | grep -qiE 'git push.*(main|master)($|\\s)' && echo 'BLOCKED: Direct push to main/master. Use a feature branch + PR.' >&2 && exit 2 || exit 0\""
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"input=$(cat); cmd=$(echo \\\"$input\\\" | jq -r '.tool_input.command // empty'); if echo \\\"$cmd\\\" | grep -qiE '(kubectl apply|microk8s kubectl apply|helm (upgrade|install|uninstall)|terraform apply|argocd app sync|kustomize apply)' && ! echo \\\"$cmd\\\" | grep -q 'homelab-infra'; then echo 'BLOCKED: Homelab infrastructure changes must be staged in C:/Users/ltmas/Repo/homelab-infra first. Make the change there, commit it, then apply from that repo.' >&2 && exit 2; fi; exit 0\""
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"input=$(cat); echo \\\"$input\\\" | grep -qiE '(sk_live_|sk_test_|AKIA[0-9A-Z]{16}|ghp_[a-zA-Z0-9]{36}|glpat-|-----BEGIN.*PRIVATE KEY|mongodb(\\\\+srv)?://[^@]+@|postgres(ql)?://[^@]+@|redis://:[^@]+@|eyJ[a-zA-Z0-9_-]*\\\\.eyJ)' && echo 'BLOCKED: Potential secret/credential detected in content. Move secrets to Vault or Secrets Manager.' >&2 && exit 2 || exit 0\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"LOG=\\\"$HOME/.claude/audit.log\\\"; echo \\\"[$(date -Iseconds)] Tool: $CLAUDE_TOOL_NAME | Exit: $CLAUDE_TOOL_EXIT_CODE\\\" >> \\\"$LOG\\\"; if [ $(wc -l < \\\"$LOG\\\" 2>/dev/null || echo 0) -gt 5000 ]; then tail -3000 \\\"$LOG\\\" > \\\"$LOG.tmp\\\" && mv \\\"$LOG.tmp\\\" \\\"$LOG\\\"; fi\""
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"VAULT='C:/Users/ltmas/Documents/Obsidian Vault'; SESSION_DATE=$(date +%Y-%m-%d); SESSION_DIR=\\\"$VAULT/Sessions/$(date +%Y)/$(date +%m)\\\"; mkdir -p \\\"$SESSION_DIR\\\"; echo \\\"[$(date -Iseconds)] $CLAUDE_TOOL_NAME: $(echo $CLAUDE_TOOL_INPUT | head -c 200)\\\" >> \\\"$SESSION_DIR/.session-activity-${SESSION_DATE}.log\\\"; exit 0\""
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c \"if echo \\\"$CLAUDE_NOTIFICATION\\\" | grep -qiE '(session|goodbye|closing|done for today|wrapping up)'; then echo 'REMINDER: Run /vault-session-end to write session summary to Obsidian vault.' >&2; fi; exit 0\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "code-review@claude-plugins-official": true,
+    "atomic-agents@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "circleback@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "terraform@claude-plugins-official": true,
+    "vercel@claude-plugins-official": false,
+    "stripe@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  },
+  "effortLevel": "high"
+}
